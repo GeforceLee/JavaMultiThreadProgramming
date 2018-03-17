@@ -19,6 +19,7 @@ public class ThreadC extends Thread {
         synchronized (lock){
             lock.notifyAll();
         }
+
     }
 
 
