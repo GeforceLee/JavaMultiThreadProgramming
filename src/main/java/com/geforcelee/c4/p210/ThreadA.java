@@ -1,17 +1,16 @@
-package com.geforcelee.c4.p2008;
+package com.geforcelee.c4.p210;
 
 /**
  * Copyright (C), 2018, GeforceLee
  *
  * @author: geforce
- * @Date: 2018/3/24 下午11:10
+ * @Date: 2018/3/25 上午10:02
  */
-public class MyThreadA extends Thread{
-
+public class ThreadA extends Thread {
     private MyService myService;
 
 
-    public MyThreadA(MyService myService) {
+    public ThreadA(MyService myService) {
         this.myService = myService;
     }
 
